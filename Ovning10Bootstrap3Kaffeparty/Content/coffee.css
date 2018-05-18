@@ -1,0 +1,155 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background-color: #5a4830#624f37;
+    color: #fdf7f0;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+aside {
+    background-color: #e1d7c9;
+    text-align: center;
+    padding-top: 40px;
+}
+.range-list {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.range-list h4 {
+    margin-bottom: 40px;
+    color: darkorange;
+    font-weight: bold;
+}
+.range-list img {
+    width: 100%;
+    height: 100%;
+    max-width: 140px;
+    max-height: 140px;
+}
+.range-title {
+    color: darkblue;
+}
+.sports-icon-list {
+    background-color: #624f37;
+    padding-bottom: 40px;
+}
+.sports-icon-list a {
+    color: white;
+}
+.sports-icon-list a h6 {
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+.sports-icon-list img {
+    width: 70px;
+    height: 70px;
+}
+article {
+    padding: 40px;
+}
+article img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+}
+article p {
+    font-size: 16px;
+}
+.navbar-brand img {
+    max-height: 112px;
+    max-width: 103px;
+}
+
+/* The following code is used to create same-sized columns
+   in a multi-column layout. 
+   
+   Code from: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height (removed)
+   Now from: https://gist.github.com/itsjavi/dc46f534f09274c1a73e
+   Also see: http://www.gekode.co.uk/bootstrap-3-responsive-columns-of-same-height/
+*/
+/* columns of same height styles */
+.container-xs-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row-xs-height {
+    display: table-row;
+}
+
+.col-xs-height {
+    display: table-cell;
+    float: none;
+}
+
+@media (min-width: 768px) {
+    .container-sm-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row-sm-height {
+        display: table-row;
+    }
+
+    .col-sm-height {
+        display: table-cell;
+        float: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-md-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row-md-height {
+        display: table-row;
+    }
+
+    .col-md-height {
+        display: table-cell;
+        float: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row-lg-height {
+        display: table-row;
+    }
+
+    .col-lg-height {
+        display: table-cell;
+        float: none;
+    }
+}
+
+/* vertical alignment styles */
+.col-top {
+    vertical-align: top;
+}
+
+.col-middle {
+    vertical-align: middle;
+}
+
+.col-bottom {
+    vertical-align: bottom;
+}
